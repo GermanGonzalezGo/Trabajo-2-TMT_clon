@@ -17,6 +17,10 @@ body {
     --sky: #4f7db3;
     --sky2: #3a3d98;
     --sky3: #a1a4e4;
+    --moon: #fcf1ca;
+    --moon2: #94a8cc;
+
+    
 
 
 }
@@ -119,7 +123,7 @@ body {
   border-radius: 50% 50% 50% 50% / 50% 30% 70% 70%;
  
   position: absolute;
-  z-index: 2;
+  
   top: 100px;
   left: 360px;
   display: flex;
@@ -134,7 +138,7 @@ body {
   border-radius: 50% 50% 50% 50% / 50% 30% 70% 70%;
  
   position: absolute;
-  z-index: 2;
+ 
   top: 600px;
   left: 650px;
   display: flex;
@@ -352,8 +356,102 @@ body {
     border-radius: 100px 100px 0 0;
 }
 
+.luna {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: inset -20px -20px 0 0 rgb(236, 236, 155);
 
+    top: 20px;
+    left: 970px;
 
+    background: linear-gradient(var(--sky), var(--sky2));
+   
+}
+
+.copa {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 60px solid salmon;
+
+    top:330px;
+    left: 900px;
+    
+}
+
+.ladrillo {
+    position: absolute;
+    width: 60px;
+    height: 250px;
+    border-radius: 5%;
+    background-color: salmon;
+
+    top: 378px;
+    left: 900px;
+    z-index: -1;
+    
+}
+
+.copa2 {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 60px solid salmon;
+
+    top: 400px;
+    left: 810px;
+    
+}
+
+.ladrillo2 {
+    position: absolute;
+    width: 110px;
+    height: 179px;
+    border-radius: 20%;
+    background-color: salmon;
+
+    top: 450px;
+    left: 790px;
+    z-index: -1;
+    
+}
+
+.copa3 {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 60px solid salmon;
+    
+
+    top: 400px;
+    left: 990px;
+    z-index: -1;
+    
+}
+
+.ladrillo3 {
+    position: absolute;
+    width: 110px;
+    height: 198px;
+    border-radius: 20%;
+    background-color: salmon;
+
+    top: 450px;
+    left: 960px;
+
+    z-index: -1;
+    
+}
+    
+    
     
       
 
