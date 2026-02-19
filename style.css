@@ -24,6 +24,23 @@ body {
 
 
 }
+#titulo{
+    position:absolute;
+    right: 25vw;
+    top: 5vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#f89878;
+    font-size: 5em;
+}
+
+#texto{
+    position:absolute;
+    right: 35vw;
+    top: 10vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#f89878;
+    font-size: 4em;
+}
 
    
 .circulo {
@@ -37,9 +54,18 @@ body {
   top: 50px;
   left: 50px;
   display: flex;
-  
-
+  transition: all 2s ease
 }
+
+.circulo:hover{
+  width: 150px;  
+  height: 150px;
+  background-color: rgb(246, 149, 84);
+  top: 100px;
+  left: 500px;
+}
+
+
 
 .circulo2 {
   width: 100px;  
@@ -52,8 +78,14 @@ body {
   top: 220px;
   left: 200px;
   display: flex;
-  
+  transition: all 2s ease
+}
 
+.circulo2:hover{
+    border-radius: 40% 50% 50% 30% / 50% 30% 50% 80%;
+    top: 220px;
+    left: 400px;
+    background-color: rgb(84, 222, 246);
 }
 
 .circulo3 {
@@ -154,7 +186,13 @@ body {
     top: 300px;
     left: 100px;
     background-color: rgb(236, 205, 33);
-    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35% );
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35% )
+}
+
+.estrellas2:hover{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(150, 27, 251);
 }
 
 .estrellas2 {
@@ -167,6 +205,11 @@ body {
     clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35% );
 }
 
+.estrellas3:hover{
+    width: 50px;
+    height: 60px;
+    background-color: rgb(150, 27, 251);
+}
 .estrellas3 {
     position: absolute;
     width: 80px;
@@ -368,6 +411,12 @@ body {
 
     background: linear-gradient(var(--sky), var(--sky2));
    
+}
+
+.luna:hover{
+    box-shadow: inset -20px -20px 0 0 rgb(239, 96, 0);
+    width: 100px;
+    height: 100px;
 }
 
 .copa {
