@@ -27,7 +27,7 @@ body {
 #titulo{
     position:absolute;
     right: 25vw;
-    top: 5vw;
+    top: 4vw;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:#f89878;
     font-size: 5em;
@@ -35,11 +35,11 @@ body {
 
 #texto{
     position:absolute;
-    right: 35vw;
-    top: 10vw;
+    right: 10vw;
+    top: 14vw;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color:#f89878;
-    font-size: 4em;
+    color:#e78666;
+    font-size: 2em;
 }
 
    
@@ -407,7 +407,7 @@ body {
     box-shadow: inset -20px -20px 0 0 rgb(236, 236, 155);
 
     top: 20px;
-    left: 970px;
+    right: 150px;
 
     background: linear-gradient(var(--sky), var(--sky2));
    
